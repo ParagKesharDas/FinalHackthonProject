@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="250.69" tests="13" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\2308358\eclipse-workspace\FinalHackathonProject\target\test-classes;C:\Users\2308358\eclipse-workspace\FinalHackathonProject\target\classes;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\2308358\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\2308358\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2308358\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2308358\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2308358\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\2308358\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\2308358\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\2308358\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\2308358\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;C:\Users\2308358\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2308358\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2308358\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2308358\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2308358\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2308358\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\2308358\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\2308358\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\2308358\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\2308358\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2308358\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\2308358\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\2308358\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\2308358\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\2308358\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\2308358\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\2308358\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2308358\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2308358\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2308358\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2308358\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2308358\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2308358\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2308358\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\2308358\AppData\Local\Temp\1\surefire11604307250631112092\surefirebooter-20240309130632176_3.jar C:\Users\2308358\AppData\Local\Temp\1\surefire11604307250631112092 2024-03-09T13-06-31_927-jvmRun1 surefire-20240309130632176_1tmp surefire_0-20240309130632176_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\2308358\eclipse-workspace\FinalHackathonProject\target\test-classes;C:\Users\2308358\eclipse-workspace\FinalHackathonProject\target\classes;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\2308358\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\2308358\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2308358\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2308358\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2308358\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\2308358\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\2308358\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\2308358\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\2308358\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\2308358\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\2308358\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;C:\Users\2308358\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2308358\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2308358\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2308358\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2308358\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2308358\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\2308358\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\2308358\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\2308358\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\2308358\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2308358\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\2308358\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\2308358\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\2308358\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\2308358\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\2308358\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\2308358\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2308358\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2308358\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2308358\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2308358\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2308358\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2308358\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2308358\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\2308358"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\2308358\eclipse-workspace\FinalHackathonProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\2308358\AppData\Local\Temp\1\surefire11604307250631112092\surefirebooter-20240309130632176_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS"/>
+    <property name="user.name" value="2308358"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu17.32+13-CA"/>
+    <property name="localRepository" value="C:\Users\2308358\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\2308358\AppData\Local\Temp\1\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\2308358\eclipse-workspace\FinalHackathonProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Zulu/zulu-17/bin/server;C:/Program Files/Zulu/zulu-17/bin;C:\Program Files\Zulu\zulu-17\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Maven\apache-maven-3.9.3\bin\;C:\Users\2308358\AppData\Local\Microsoft\WindowsApps;;C:\Users\2308358\OneDrive - Cognizant\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="17.0.2+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="validLandingPage" classname="smokeTestCases.TC_004_ValidLandingPageTitleTest" time="0.92">
+    <system-out><![CDATA[===============================================
+Executing TC_004_ValidLandingPageTitleTest
+===============================================
+EMI Calculator for Home Loan, Car Loan & Personal Loan in India
+Page title matched
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="isCarLoanTabClickable" classname="smokeTestCases.TC_005_CarLoanTabClickableTest" time="0.423">
+    <system-out><![CDATA[===============================================
+Executing TC_005_CarLoanTabClickableTest
+===============================================
+Car Loan Tab is Clickable
+]]></system-out>
+  </testcase>
+  <testcase name="carLoanTest[1500000, 9.5, 1, 1,31,525, 78,303, 15,78,303](1)" classname="testCases.TC_001_CarLoanDDT" time="28.263">
+    <system-out><![CDATA[===============================================
+Executing TC_001_CarLoanDDT
+===============================================
+Yearly Data Table: 
+2024 ₹ 12,40,041 ₹ 75,212 ₹ 13,15,253 ₹ 2,59,959 82.67% 
+2025 ₹ 2,59,959 ₹ 3,091 ₹ 2,63,051 ₹ 0 100.00% 
+Monthly Detailed Data Table: 
+Mar ₹ 1,19,650 ₹ 11,875 ₹ 1,31,525 ₹ 13,80,350 7.98% 
+Apr ₹ 1,20,597 ₹ 10,928 ₹ 1,31,525 ₹ 12,59,752 16.02% 
+May ₹ 1,21,552 ₹ 9,973 ₹ 1,31,525 ₹ 11,38,200 24.12% 
+Jun ₹ 1,22,515 ₹ 9,011 ₹ 1,31,525 ₹ 10,15,685 32.29% 
+Jul ₹ 1,23,484 ₹ 8,041 ₹ 1,31,525 ₹ 8,92,201 40.52% 
+Aug ₹ 1,24,462 ₹ 7,063 ₹ 1,31,525 ₹ 7,67,739 48.82% 
+Sep ₹ 1,25,447 ₹ 6,078 ₹ 1,31,525 ₹ 6,42,292 57.18% 
+Oct ₹ 1,26,440 ₹ 5,085 ₹ 1,31,525 ₹ 5,15,851 65.61% 
+Nov ₹ 1,27,441 ₹ 4,084 ₹ 1,31,525 ₹ 3,88,410 74.11% 
+Dec ₹ 1,28,450 ₹ 3,075 ₹ 1,31,525 ₹ 2,59,959 82.67% 
+Jan ₹ 1,29,467 ₹ 2,058 ₹ 1,31,525 ₹ 1,30,492 91.30% 
+Feb ₹ 1,30,492 ₹ 1,033 ₹ 1,31,525 ₹ 0 100.00% 
+For first month Mar the interest amount is ₹ 11,875 principal amount is ₹ 1,19,650
+]]></system-out>
+  </testcase>
+  <testcase name="homeLoanTest[1500000, 9.5, 1, 1,31,525, 78,303, 15,78,303, Valid](1)" classname="testCases.TC_002_HomeLoanDDT" time="26.292">
+    <system-out><![CDATA[===============================================
+Executing TC_002_HomeLoanDDT
+===============================================
+Yearly Data Table: 
+2024 ₹ 12,40,041 ₹ 75,212 ₹ 13,15,253 ₹ 2,59,959 82.67% 
+2025 ₹ 2,59,959 ₹ 3,091 ₹ 2,63,051 ₹ 0 100.00% 
+Monthly Detailed Data Table: 
+Mar ₹ 1,19,650 ₹ 11,875 ₹ 1,31,525 ₹ 13,80,350 7.98% 
+Apr ₹ 1,20,597 ₹ 10,928 ₹ 1,31,525 ₹ 12,59,752 16.02% 
+May ₹ 1,21,552 ₹ 9,973 ₹ 1,31,525 ₹ 11,38,200 24.12% 
+Jun ₹ 1,22,515 ₹ 9,011 ₹ 1,31,525 ₹ 10,15,685 32.29% 
+Jul ₹ 1,23,484 ₹ 8,041 ₹ 1,31,525 ₹ 8,92,201 40.52% 
+Aug ₹ 1,24,462 ₹ 7,063 ₹ 1,31,525 ₹ 7,67,739 48.82% 
+Sep ₹ 1,25,447 ₹ 6,078 ₹ 1,31,525 ₹ 6,42,292 57.18% 
+Oct ₹ 1,26,440 ₹ 5,085 ₹ 1,31,525 ₹ 5,15,851 65.61% 
+Nov ₹ 1,27,441 ₹ 4,084 ₹ 1,31,525 ₹ 3,88,410 74.11% 
+Dec ₹ 1,28,450 ₹ 3,075 ₹ 1,31,525 ₹ 2,59,959 82.67% 
+Jan ₹ 1,29,467 ₹ 2,058 ₹ 1,31,525 ₹ 1,30,492 91.30% 
+Feb ₹ 1,30,492 ₹ 1,033 ₹ 1,31,525 ₹ 0 100.00% 
+]]></system-out>
+  </testcase>
+  <testcase name="homeLoanTest[2500000, 10.5, 2, 2,13,450, 98,303, 25,78,303, Invalid](2)" classname="testCases.TC_002_HomeLoanDDT" time="3.96">
+    <system-out><![CDATA[===============================================
+Executing TC_002_HomeLoanDDT
+===============================================
+Loan Amount 2500000 Interest Rate 10.5 Loan Tenure 2 Status Invalid validation Test Passed
+]]></system-out>
+  </testcase>
+  <testcase name="homeLoanTest[3500000, 8.5, 3, 2,13,450, 98,303, 25,78,303, Invalid](3)" classname="testCases.TC_002_HomeLoanDDT" time="3.904">
+    <system-out><![CDATA[===============================================
+Executing TC_002_HomeLoanDDT
+===============================================
+Loan Amount 3500000 Interest Rate 8.5 Loan Tenure 3 Status Invalid validation Test Passed
+]]></system-out>
+  </testcase>
+  <testcase name="isNavigatedToLoanCalculator" classname="smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest" time="6.877">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest.isNavigatedToLoanCalculator(TC_006_LoanCalculatorYearMonthTentureValidationTest.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[===============================================
+Executing TC_006_LoanCalculatorYearMonthTentureValidationTest :isNavigatedToLoanCalculator
+===============================================
+Loan Calculator — Calculate EMI, Affordability, Tenure & Interest Rate
+Page title mismatched
+]]></system-out>
+  </testcase>
+  <testcase name="yearMonthBtnTesting[7.5, 90, Valid](1)" classname="smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest" time="4.458">
+    <system-out><![CDATA[===============================================
+Executing TC_006_LoanCalculatorYearMonthTentureValidationTest :yearMonthBtnTesting
+===============================================
+Status Valid Month 90 to Year 7.5 Value Changing is correct
+]]></system-out>
+  </testcase>
+  <testcase name="yearMonthBtnTesting[10.2, 122, Invalid](2)" classname="smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest" time="4.437">
+    <system-out><![CDATA[===============================================
+Executing TC_006_LoanCalculatorYearMonthTentureValidationTest :yearMonthBtnTesting
+===============================================
+Status Invalid Month 122 to Year 10.2 Value Changing is correct
+]]></system-out>
+  </testcase>
+  <testcase name="LoanCalculatorTest[5000000, 9, 3, 50000, 1,58,998, 9.69, 7,23,952, 57,73,952](1)" classname="testCases.TC_003_LoanCalculatorDDT" time="68.315">
+    <system-out><![CDATA[===============================================
+Executing TC_003_LoanCalculatorDDT:LoanCalculatorTest
+===============================================
+Yearly & Monthly Detailed Data Table: 
+240
+2024 ₹ 12,56,823.38 ₹ 3,33,163.22 ₹ 15,89,986.60 ₹ 37,43,176.62 25.14% 
+Mar ₹ 1,21,498.66 ₹ 37,500.00 ₹ 1,58,998.66 ₹ 48,78,501.34 2.43% 
+Apr ₹ 1,22,409.90 ₹ 36,588.76 ₹ 1,58,998.66 ₹ 47,56,091.44 4.88% 
+May ₹ 1,23,327.97 ₹ 35,670.69 ₹ 1,58,998.66 ₹ 46,32,763.47 7.34% 
+Jun ₹ 1,24,252.93 ₹ 34,745.73 ₹ 1,58,998.66 ₹ 45,08,510.53 9.83% 
+Jul ₹ 1,25,184.83 ₹ 33,813.83 ₹ 1,58,998.66 ₹ 43,83,325.70 12.33% 
+Aug ₹ 1,26,123.72 ₹ 32,874.94 ₹ 1,58,998.66 ₹ 42,57,201.98 14.86% 
+Sep ₹ 1,27,069.65 ₹ 31,929.01 ₹ 1,58,998.66 ₹ 41,30,132.34 17.40% 
+Oct ₹ 1,28,022.67 ₹ 30,975.99 ₹ 1,58,998.66 ₹ 40,02,109.67 19.96% 
+Nov ₹ 1,28,982.84 ₹ 30,015.82 ₹ 1,58,998.66 ₹ 38,73,126.83 22.54% 
+Dec ₹ 1,29,950.21 ₹ 29,048.45 ₹ 1,58,998.66 ₹ 37,43,176.62 25.14% 
+2025 ₹ 16,37,553.68 ₹ 2,70,430.24 ₹ 19,07,983.92 ₹ 21,05,622.94 57.89% 
+Jan ₹ 1,30,924.84 ₹ 28,073.82 ₹ 1,58,998.66 ₹ 36,12,251.79 27.75% 
+Feb ₹ 1,31,906.77 ₹ 27,091.89 ₹ 1,58,998.66 ₹ 34,80,345.02 30.39% 
+Mar ₹ 1,32,896.07 ₹ 26,102.59 ₹ 1,58,998.66 ₹ 33,47,448.95 33.05% 
+Apr ₹ 1,33,892.79 ₹ 25,105.87 ₹ 1,58,998.66 ₹ 32,13,556.15 35.73% 
+May ₹ 1,34,896.99 ₹ 24,101.67 ₹ 1,58,998.66 ₹ 30,78,659.16 38.43% 
+Jun ₹ 1,35,908.72 ₹ 23,089.94 ₹ 1,58,998.66 ₹ 29,42,750.45 41.14% 
+Jul ₹ 1,36,928.03 ₹ 22,070.63 ₹ 1,58,998.66 ₹ 28,05,822.42 43.88% 
+Aug ₹ 1,37,954.99 ₹ 21,043.67 ₹ 1,58,998.66 ₹ 26,67,867.42 46.64% 
+Sep ₹ 1,38,989.65 ₹ 20,009.01 ₹ 1,58,998.66 ₹ 25,28,877.77 49.42% 
+Oct ₹ 1,40,032.08 ₹ 18,966.58 ₹ 1,58,998.66 ₹ 23,88,845.69 52.22% 
+Nov ₹ 1,41,082.32 ₹ 17,916.34 ₹ 1,58,998.66 ₹ 22,47,763.38 55.04% 
+Dec ₹ 1,42,140.43 ₹ 16,858.23 ₹ 1,58,998.66 ₹ 21,05,622.94 57.89% 
+2026 ₹ 17,91,167.51 ₹ 1,16,816.41 ₹ 19,07,983.92 ₹ 3,14,455.43 93.71% 
+Jan ₹ 1,43,206.49 ₹ 15,792.17 ₹ 1,58,998.66 ₹ 19,62,416.45 60.75% 
+Feb ₹ 1,44,280.54 ₹ 14,718.12 ₹ 1,58,998.66 ₹ 18,18,135.92 63.64% 
+Mar ₹ 1,45,362.64 ₹ 13,636.02 ₹ 1,58,998.66 ₹ 16,72,773.28 66.54% 
+Apr ₹ 1,46,452.86 ₹ 12,545.80 ₹ 1,58,998.66 ₹ 15,26,320.42 69.47% 
+May ₹ 1,47,551.26 ₹ 11,447.40 ₹ 1,58,998.66 ₹ 13,78,769.16 72.42% 
+Jun ₹ 1,48,657.89 ₹ 10,340.77 ₹ 1,58,998.66 ₹ 12,30,111.27 75.40% 
+Jul ₹ 1,49,772.83 ₹ 9,225.83 ₹ 1,58,998.66 ₹ 10,80,338.44 78.39% 
+Aug ₹ 1,50,896.12 ₹ 8,102.54 ₹ 1,58,998.66 ₹ 9,29,442.32 81.41% 
+Sep ₹ 1,52,027.84 ₹ 6,970.82 ₹ 1,58,998.66 ₹ 7,77,414.48 84.45% 
+Oct ₹ 1,53,168.05 ₹ 5,830.61 ₹ 1,58,998.66 ₹ 6,24,246.43 87.52% 
+Nov ₹ 1,54,316.81 ₹ 4,681.85 ₹ 1,58,998.66 ₹ 4,69,929.61 90.60% 
+Dec ₹ 1,55,474.19 ₹ 3,524.47 ₹ 1,58,998.66 ₹ 3,14,455.43 93.71% 
+2027 ₹ 3,14,455.29 ₹ 3,542.03 ₹ 3,17,997.32 ₹ 0.00 100.00% 
+Jan ₹ 1,56,640.24 ₹ 2,358.42 ₹ 1,58,998.66 ₹ 1,57,815.18 96.84% 
+Feb ₹ 1,57,815.05 ₹ 1,183.61 ₹ 1,58,998.66 ₹ 0.00 100.00% 
+]]></system-out>
+  </testcase>
+  <testcase name="LoanAmountCalculatorTest[20000, 9, 2, 25000, 5,05,000](1)" classname="testCases.TC_003_LoanCalculatorDDT" time="42.922">
+    <system-out><![CDATA[===============================================
+Executing TC_003_LoanCalculatorDDT : LoanAmountCalculatorTest
+===============================================
+Yearly & Monthly Detailed Data Table: 
+162
+2024 ₹ 1,72,922.47 ₹ 27,077.53 ₹ 2,00,000.00 ₹ 2,64,860.53 39.50% 
+Mar ₹ 16,716.63 ₹ 3,283.37 ₹ 20,000.00 ₹ 4,21,066.37 3.82% 
+Apr ₹ 16,842.00 ₹ 3,158.00 ₹ 20,000.00 ₹ 4,04,224.37 7.67% 
+May ₹ 16,968.32 ₹ 3,031.68 ₹ 20,000.00 ₹ 3,87,256.05 11.54% 
+Jun ₹ 17,095.58 ₹ 2,904.42 ₹ 20,000.00 ₹ 3,70,160.47 15.45% 
+Jul ₹ 17,223.80 ₹ 2,776.20 ₹ 20,000.00 ₹ 3,52,936.68 19.38% 
+Aug ₹ 17,352.97 ₹ 2,647.03 ₹ 20,000.00 ₹ 3,35,583.70 23.34% 
+Sep ₹ 17,483.12 ₹ 2,516.88 ₹ 20,000.00 ₹ 3,18,100.58 27.34% 
+Oct ₹ 17,614.25 ₹ 2,385.75 ₹ 20,000.00 ₹ 3,00,486.33 31.36% 
+Nov ₹ 17,746.35 ₹ 2,253.65 ₹ 20,000.00 ₹ 2,82,739.98 35.42% 
+Dec ₹ 17,879.45 ₹ 2,120.55 ₹ 20,000.00 ₹ 2,64,860.53 39.50% 
+2025 ₹ 2,25,305.98 ₹ 14,694.02 ₹ 2,40,000.00 ₹ 39,554.55 90.96% 
+Jan ₹ 18,013.55 ₹ 1,986.45 ₹ 20,000.00 ₹ 2,46,846.99 43.61% 
+Feb ₹ 18,148.65 ₹ 1,851.35 ₹ 20,000.00 ₹ 2,28,698.34 47.76% 
+Mar ₹ 18,284.76 ₹ 1,715.24 ₹ 20,000.00 ₹ 2,10,413.58 51.94% 
+Apr ₹ 18,421.90 ₹ 1,578.10 ₹ 20,000.00 ₹ 1,91,991.68 56.14% 
+May ₹ 18,560.06 ₹ 1,439.94 ₹ 20,000.00 ₹ 1,73,431.61 60.38% 
+Jun ₹ 18,699.26 ₹ 1,300.74 ₹ 20,000.00 ₹ 1,54,732.35 64.66% 
+Jul ₹ 18,839.51 ₹ 1,160.49 ₹ 20,000.00 ₹ 1,35,892.84 68.96% 
+Aug ₹ 18,980.80 ₹ 1,019.20 ₹ 20,000.00 ₹ 1,16,912.04 73.29% 
+Sep ₹ 19,123.16 ₹ 876.84 ₹ 20,000.00 ₹ 97,788.88 77.66% 
+Oct ₹ 19,266.58 ₹ 733.42 ₹ 20,000.00 ₹ 78,522.30 82.06% 
+Nov ₹ 19,411.08 ₹ 588.92 ₹ 20,000.00 ₹ 59,111.22 86.50% 
+Dec ₹ 19,556.67 ₹ 443.33 ₹ 20,000.00 ₹ 39,554.55 90.96% 
+2026 ₹ 39,554.46 ₹ 445.54 ₹ 40,000.00 ₹ 0.00 100.00% 
+Jan ₹ 19,703.34 ₹ 296.66 ₹ 20,000.00 ₹ 19,851.21 95.47% 
+Feb ₹ 19,851.12 ₹ 148.88 ₹ 20,000.00 ₹ 0.00 100.00% 
+]]></system-out>
+  </testcase>
+  <testcase name="LoanTentureCalculatorTest[1500000, 73076.83, 2.5, 17500, 15,52,113](1)" classname="testCases.TC_003_LoanCalculatorDDT" time="39.252">
+    <system-out><![CDATA[===============================================
+Executing TC_003_LoanCalculatorDDT : LoanTentureCalculatorTest
+===============================================
+Yearly & Monthly Detailed Data Table: 
+138
+2024 ₹ 7,06,112.85 ₹ 24,655.45 ₹ 7,30,768.30 ₹ 7,93,887.15 47.07% 
+Mar ₹ 69,951.83 ₹ 3,125.00 ₹ 73,076.83 ₹ 14,30,048.17 4.66% 
+Apr ₹ 70,097.56 ₹ 2,979.27 ₹ 73,076.83 ₹ 13,59,950.61 9.34% 
+May ₹ 70,243.60 ₹ 2,833.23 ₹ 73,076.83 ₹ 12,89,707.01 14.02% 
+Jun ₹ 70,389.94 ₹ 2,686.89 ₹ 73,076.83 ₹ 12,19,317.07 18.71% 
+Jul ₹ 70,536.59 ₹ 2,540.24 ₹ 73,076.83 ₹ 11,48,780.48 23.41% 
+Aug ₹ 70,683.54 ₹ 2,393.29 ₹ 73,076.83 ₹ 10,78,096.94 28.13% 
+Sep ₹ 70,830.79 ₹ 2,246.04 ₹ 73,076.83 ₹ 10,07,266.15 32.85% 
+Oct ₹ 70,978.36 ₹ 2,098.47 ₹ 73,076.83 ₹ 9,36,287.79 37.58% 
+Nov ₹ 71,126.23 ₹ 1,950.60 ₹ 73,076.83 ₹ 8,65,161.56 42.32% 
+Dec ₹ 71,274.41 ₹ 1,802.42 ₹ 73,076.83 ₹ 7,93,887.15 47.07% 
+2025 ₹ 7,93,887.12 ₹ 9,958.01 ₹ 8,03,845.13 ₹ 0.00 100.00% 
+Jan ₹ 71,422.90 ₹ 1,653.93 ₹ 73,076.83 ₹ 7,22,464.25 51.84% 
+Feb ₹ 71,571.70 ₹ 1,505.13 ₹ 73,076.83 ₹ 6,50,892.55 56.61% 
+Mar ₹ 71,720.80 ₹ 1,356.03 ₹ 73,076.83 ₹ 5,79,171.75 61.39% 
+Apr ₹ 71,870.22 ₹ 1,206.61 ₹ 73,076.83 ₹ 5,07,301.53 66.18% 
+May ₹ 72,019.95 ₹ 1,056.88 ₹ 73,076.83 ₹ 4,35,281.58 70.98% 
+Jun ₹ 72,169.99 ₹ 906.84 ₹ 73,076.83 ₹ 3,63,111.58 75.79% 
+Jul ₹ 72,320.35 ₹ 756.48 ₹ 73,076.83 ₹ 2,90,791.24 80.61% 
+Aug ₹ 72,471.01 ₹ 605.82 ₹ 73,076.83 ₹ 2,18,320.22 85.45% 
+Sep ₹ 72,622.00 ₹ 454.83 ₹ 73,076.83 ₹ 1,45,698.23 90.29% 
+Oct ₹ 72,773.29 ₹ 303.54 ₹ 73,076.83 ₹ 72,924.93 95.14% 
+Nov ₹ 72,924.90 ₹ 151.93 ₹ 73,076.83 ₹ 0.00 100.00% 
+]]></system-out>
+  </testcase>
+  <testcase name="isShareBtnWorking" classname="smokeTestCases.TC_007_LoanCalculatorShareButtonTest" time="2.428">
+    <system-out><![CDATA[===============================================
+Executing TC_007_LoanCalculatorShareButtonTest 
+===============================================
+Yes Working
+]]></system-out>
+  </testcase>
+</testsuite>

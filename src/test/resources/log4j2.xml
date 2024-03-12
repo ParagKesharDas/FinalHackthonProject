@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Configuration status="WARN">
+
+	<Properties>
+		<Property name="basePath">./logs</Property>
+	</Properties>
+
+<!--where to genarate logs-->
+	<Appenders>
+
+	<!--reviewing logs is easy beacouse files are parmanent-->
+		<RollingFile name="File" fileName="${basePath}/automation.log" filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<SizeBasedTriggeringPolicy size="5000" />
+		</RollingFile>
+
+	</Appenders>
+<!--what type of logs genarate-->
+	<Loggers>
+	<!-- Here you can use multiple log levels All < Trace < Debug < Info < Warn < Error < Fatal < Off -->
+			<!-- <AppenderRef ref="Console"/> -->
+			<!-- it is taking refarance of file from RollingFile-->
+		<Root level="info">
+			<AppenderRef ref="File" />
+		</Root>
+	</Loggers> 
+
+</Configuration>

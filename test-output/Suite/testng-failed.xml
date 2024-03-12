@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test no 1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="yearMonthBtnTesting" invocation-numbers="1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest -->
+    </classes>
+  </test> <!-- Test no 1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

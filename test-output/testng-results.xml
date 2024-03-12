@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-06T12:51:29 IST" name="Suite" finished-at="2024-03-06T12:54:43 IST" duration-ms="193837">
+    <groups>
+      <group name="smoke test">
+        <method signature="TC_004_ValidLandingPageTitleTest.validLandingPage()[pri:0, instance:smokeTestCases.TC_004_ValidLandingPageTitleTest@36fc695d]" name="validLandingPage" class="smokeTestCases.TC_004_ValidLandingPageTitleTest"/>
+        <method signature="TC_005_CarLoanTabClickableTest.isCarLoanTabClickable()[pri:0, instance:smokeTestCases.TC_005_CarLoanTabClickableTest@776aec5c]" name="isCarLoanTabClickable" class="smokeTestCases.TC_005_CarLoanTabClickableTest"/>
+        <method signature="TC_006_LoanCalculatorYearMonthTentureValidationTest.isNavigatedToLoanCalculator()[pri:0, instance:smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest@75d4a5c2]" name="isNavigatedToLoanCalculator" class="smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest"/>
+        <method signature="TC_007_LoanCalculatorShareButtonTest.isShareBtnWorking()[pri:0, instance:smokeTestCases.TC_007_LoanCalculatorShareButtonTest@408d971b]" name="isShareBtnWorking" class="smokeTestCases.TC_007_LoanCalculatorShareButtonTest"/>
+        <method signature="TC_006_LoanCalculatorYearMonthTentureValidationTest.yearMonthBtnTesting(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest@75d4a5c2]" name="yearMonthBtnTesting" class="smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest"/>
+      </group> <!-- smoke test -->
+      <group name="regression">
+        <method signature="TC_001_CarLoanDDT.carLoanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_CarLoanDDT@1d296da]" name="carLoanTest" class="testCases.TC_001_CarLoanDDT"/>
+        <method signature="TC_002_HomeLoanDDT.homeLoanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.TC_002_HomeLoanDDT@7c7a06ec]" name="homeLoanTest" class="testCases.TC_002_HomeLoanDDT"/>
+        <method signature="TC_003_LoanCalculatorDDT.LoanCalculatorTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TC_003_LoanCalculatorDDT@557caf28]" name="LoanCalculatorTest" class="testCases.TC_003_LoanCalculatorDDT"/>
+        <method signature="TC_003_LoanCalculatorDDT.LoanAmountCalculatorTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TC_003_LoanCalculatorDDT@557caf28]" name="LoanAmountCalculatorTest" class="testCases.TC_003_LoanCalculatorDDT"/>
+        <method signature="TC_003_LoanCalculatorDDT.LoanTentureCalculatorTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TC_003_LoanCalculatorDDT@557caf28]" name="LoanTentureCalculatorTest" class="testCases.TC_003_LoanCalculatorDDT"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2024-03-06T12:51:29 IST" name="Test no 1" finished-at="2024-03-06T12:54:43 IST" duration-ms="193837">
+      <class name="smokeTestCases.TC_007_LoanCalculatorShareButtonTest">
+        <test-method signature="isShareBtnWorking()[pri:0, instance:smokeTestCases.TC_007_LoanCalculatorShareButtonTest@408d971b]" started-at="2024-03-06T12:54:39 IST" name="isShareBtnWorking" finished-at="2024-03-06T12:54:42 IST" duration-ms="2194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isShareBtnWorking -->
+      </class> <!-- smokeTestCases.TC_007_LoanCalculatorShareButtonTest -->
+      <class name="testCases.TC_003_LoanCalculatorDDT">
+        <test-method signature="LoanCalculatorTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TC_003_LoanCalculatorDDT@557caf28]" started-at="2024-03-06T12:52:54 IST" name="LoanCalculatorTest" data-provider="LoanCalculatorVerificationData" finished-at="2024-03-06T12:53:40 IST" duration-ms="45782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1,58,998]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.69]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7,23,952]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[57,73,952]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanCalculatorTest -->
+        <test-method signature="LoanAmountCalculatorTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TC_003_LoanCalculatorDDT@557caf28]" started-at="2024-03-06T12:53:40 IST" name="LoanAmountCalculatorTest" data-provider="EmiCalData" finished-at="2024-03-06T12:54:12 IST" duration-ms="31267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5,05,000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanAmountCalculatorTest -->
+        <test-method signature="LoanTentureCalculatorTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TC_003_LoanCalculatorDDT@557caf28]" started-at="2024-03-06T12:54:12 IST" name="LoanTentureCalculatorTest" data-provider="LoanTentureCalculatorData" finished-at="2024-03-06T12:54:39 IST" duration-ms="27423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[73076.83]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[17500]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[15,52,113]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanTentureCalculatorTest -->
+      </class> <!-- testCases.TC_003_LoanCalculatorDDT -->
+      <class name="smokeTestCases.TC_005_CarLoanTabClickableTest">
+        <test-method signature="isCarLoanTabClickable()[pri:0, instance:smokeTestCases.TC_005_CarLoanTabClickableTest@776aec5c]" started-at="2024-03-06T12:51:43 IST" name="isCarLoanTabClickable" finished-at="2024-03-06T12:51:43 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCarLoanTabClickable -->
+      </class> <!-- smokeTestCases.TC_005_CarLoanTabClickableTest -->
+      <class name="smokeTestCases.TC_004_ValidLandingPageTitleTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:smokeTestCases.TC_004_ValidLandingPageTitleTest@36fc695d]" started-at="2024-03-06T12:51:30 IST" name="setUp" finished-at="2024-03-06T12:51:42 IST" duration-ms="12019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLandingPage()[pri:0, instance:smokeTestCases.TC_004_ValidLandingPageTitleTest@36fc695d]" started-at="2024-03-06T12:51:42 IST" name="validLandingPage" finished-at="2024-03-06T12:51:43 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLandingPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:smokeTestCases.TC_004_ValidLandingPageTitleTest@36fc695d]" started-at="2024-03-06T12:54:42 IST" name="tearDown" finished-at="2024-03-06T12:54:43 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- smokeTestCases.TC_004_ValidLandingPageTitleTest -->
+      <class name="smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest">
+        <test-method signature="isNavigatedToLoanCalculator()[pri:0, instance:smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest@75d4a5c2]" started-at="2024-03-06T12:52:38 IST" name="isNavigatedToLoanCalculator" finished-at="2024-03-06T12:52:44 IST" duration-ms="6354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNavigatedToLoanCalculator -->
+        <test-method signature="yearMonthBtnTesting(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest@75d4a5c2]" started-at="2024-03-06T12:52:45 IST" name="yearMonthBtnTesting" data-provider="yearMonthData" finished-at="2024-03-06T12:52:49 IST" duration-ms="4491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yearMonthBtnTesting -->
+        <test-method signature="yearMonthBtnTesting(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest@75d4a5c2]" started-at="2024-03-06T12:52:49 IST" name="yearMonthBtnTesting" data-provider="yearMonthData" finished-at="2024-03-06T12:52:54 IST" duration-ms="4531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[122]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yearMonthBtnTesting -->
+      </class> <!-- smokeTestCases.TC_006_LoanCalculatorYearMonthTentureValidationTest -->
+      <class name="testCases.TC_002_HomeLoanDDT">
+        <test-method signature="homeLoanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.TC_002_HomeLoanDDT@7c7a06ec]" started-at="2024-03-06T12:52:07 IST" name="homeLoanTest" data-provider="HomeLoanVerificationData" finished-at="2024-03-06T12:52:29 IST" duration-ms="22141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1,31,525]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[78,303]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15,78,303]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanTest -->
+        <test-method signature="homeLoanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.TC_002_HomeLoanDDT@7c7a06ec]" started-at="2024-03-06T12:52:29 IST" name="homeLoanTest" data-provider="HomeLoanVerificationData" finished-at="2024-03-06T12:52:33 IST" duration-ms="3868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2,13,450]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[98,303]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[25,78,303]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanTest -->
+        <test-method signature="homeLoanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.TC_002_HomeLoanDDT@7c7a06ec]" started-at="2024-03-06T12:52:33 IST" name="homeLoanTest" data-provider="HomeLoanVerificationData" finished-at="2024-03-06T12:52:38 IST" duration-ms="4277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2,13,450]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[98,303]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[25,78,303]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanTest -->
+      </class> <!-- testCases.TC_002_HomeLoanDDT -->
+      <class name="testCases.TC_001_CarLoanDDT">
+        <test-method signature="carLoanTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_CarLoanDDT@1d296da]" started-at="2024-03-06T12:51:45 IST" name="carLoanTest" data-provider="CarLoanVerificationData" finished-at="2024-03-06T12:52:06 IST" duration-ms="21358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1,31,525]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[78,303]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15,78,303]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanTest -->
+      </class> <!-- testCases.TC_001_CarLoanDDT -->
+    </test> <!-- Test no 1 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,55 @@
+12:51:53.463 [main] INFO  pageObjects.LandingPage -  Yearly Data From Table extracted successfully
+12:51:55.696 [main] INFO  pageObjects.LandingPage - Year Table Expanded
+12:52:03.849 [main] INFO  pageObjects.LandingPage - Monthly Data From Table extracted successfully
+12:52:06.861 [main] INFO  pageObjects.BasePage - *** Finishing TC_001_CarLoanTest :carLoanTest ***
+12:52:07.523 [main] INFO  pageObjects.BasePage - *** Starting TC_002_HomeLoanDDT :homeLoanTest ***
+12:52:07.643 [main] INFO  pageObjects.LandingPage - home loan tab clicked
+12:52:08.034 [main] INFO  pageObjects.LandingPage - Loan Ammount setting done
+12:52:08.277 [main] INFO  pageObjects.LandingPage - Loan Interest setting done
+12:52:08.620 [main] INFO  pageObjects.LandingPage - Loan Tenure setting done
+12:52:11.736 [main] INFO  pageObjects.LandingPage - Emi Ammount got successfully 
+12:52:11.772 [main] INFO  pageObjects.LandingPage - Total Interest Value got successfully
+12:52:11.810 [main] INFO  pageObjects.LandingPage - Total Payment Value got successfully
+12:52:11.810 [main] INFO  pageObjects.BasePage - validation Checked Successfully
+12:52:15.355 [main] INFO  pageObjects.LandingPage -  Yearly Data From Table extracted successfully
+12:52:17.613 [main] INFO  pageObjects.LandingPage - Year Table Expanded
+12:52:26.652 [main] INFO  pageObjects.LandingPage - Monthly Data From Table extracted successfully
+12:52:29.662 [main] INFO  pageObjects.BasePage - *** Finishing TC_002_HomeLoanDDT :homeLoanTest ***
+12:52:29.843 [main] INFO  pageObjects.BasePage - *** Starting TC_002_HomeLoanDDT :homeLoanTest ***
+12:52:29.919 [main] INFO  pageObjects.LandingPage - home loan tab clicked
+12:52:30.164 [main] INFO  pageObjects.LandingPage - Loan Ammount setting done
+12:52:30.291 [main] INFO  pageObjects.LandingPage - Loan Interest setting done
+12:52:30.608 [main] INFO  pageObjects.LandingPage - Loan Tenure setting done
+12:52:33.708 [main] INFO  pageObjects.LandingPage - Emi Ammount got successfully 
+12:52:33.708 [main] INFO  pageObjects.BasePage - validation Checking Passed
+12:52:33.708 [main] INFO  pageObjects.BasePage - *** Finishing TC_002_HomeLoanDDT :homeLoanTest ***
+12:52:33.928 [main] INFO  pageObjects.BasePage - *** Starting TC_002_HomeLoanDDT :homeLoanTest ***
+12:52:34.019 [main] INFO  pageObjects.LandingPage - home loan tab clicked
+12:52:34.427 [main] INFO  pageObjects.LandingPage - Loan Ammount setting done
+12:52:34.775 [main] INFO  pageObjects.LandingPage - Loan Interest setting done
+12:52:35.140 [main] INFO  pageObjects.LandingPage - Loan Tenure setting done
+12:52:38.203 [main] INFO  pageObjects.LandingPage - Emi Ammount got successfully 
+12:52:38.203 [main] INFO  pageObjects.BasePage - validation Checking Passed
+12:52:38.203 [main] INFO  pageObjects.BasePage - *** Finishing TC_002_HomeLoanDDT :homeLoanTest ***
+12:52:38.423 [main] INFO  pageObjects.BasePage - *** Starting TC_006_LoanCalculatorYearMonthTentureValidationTest :isNavigatedToLoanCalculator ***
+12:52:38.516 [main] INFO  pageObjects.LandingPage - MenuItem Calculator clicked
+12:52:39.735 [main] INFO  pageObjects.LandingPage - Loan Calculator clicked
+12:52:44.774 [main] INFO  pageObjects.BasePage - Page title matched
+12:52:45.205 [main] INFO  pageObjects.BasePage - *** Starting TC_006_LoanCalculatorYearMonthTentureValidationTest :yearMonthBtnTesting ***
+12:52:47.575 [main] INFO  pageObjects.LoanCalculatorPage - Loan Tenure Input setted successfully
+12:52:49.694 [main] INFO  pageObjects.BasePage - Month to Year Value Changing is correct
+12:52:49.929 [main] INFO  pageObjects.BasePage - *** Starting TC_006_LoanCalculatorYearMonthTentureValidationTest :yearMonthBtnTesting ***
+12:52:52.364 [main] INFO  pageObjects.LoanCalculatorPage - Loan Tenure Input setted successfully
+12:52:54.458 [main] INFO  pageObjects.BasePage - Month to Year Value Changing is correct
+12:52:54.893 [main] INFO  pageObjects.BasePage - *** Starting TC_003_LoanCalculatorDDT :LoanCalculatorTest ***
+12:52:54.988 [main] INFO  pageObjects.LandingPage - MenuItem Calculator clicked
+12:52:55.815 [main] INFO  pageObjects.LandingPage - Loan Calculator clicked
+12:53:01.150 [main] INFO  pageObjects.LoanCalculatorPage - Loan Ammount Input setted successfully
+12:53:02.585 [main] INFO  pageObjects.LoanCalculatorPage - Loan Interest Input setted successfully
+12:53:04.014 [main] INFO  pageObjects.LoanCalculatorPage - Loan Tenure Input setted successfully
+12:53:05.466 [main] INFO  pageObjects.LoanCalculatorPage - Fees Input setted successfully
+12:53:10.982 [main] INFO  pageObjects.BasePage - validation Checked Successfully
+12:53:15.502 [main] INFO  pageObjects.LoanCalculatorPage - Year table expand
+12:53:40.674 [main] INFO  pageObjects.BasePage - *** Finishing TC_003_LoanCalculatorDDT :LoanCalculatorTest ***
+12:53:40.923 [main] INFO  pageObjects.BasePage - *** Starting TC_003_LoanCalculatorDDT : LoanAmountCalculatorTest ***
+12:53:42.269 [main] INFO  pageObjects.LoanCalculatorPage - Loan EMI Input setted successfully

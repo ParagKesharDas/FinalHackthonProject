@@ -1,0 +1,48 @@
+20:06:28.382 [main] INFO  pageObjects.LandingPage - Emi Ammount got successfully 
+20:06:28.389 [main] INFO  pageObjects.BasePage - validation Checking Failed
+20:06:28.605 [main] INFO  pageObjects.BasePage - *** Starting TC_002_HomeLoanDDT :homeLoanTest ***
+20:06:28.724 [main] INFO  pageObjects.LandingPage - home loan tab clicked
+20:06:29.106 [main] INFO  pageObjects.LandingPage - Loan Ammount setting done
+20:06:29.276 [main] INFO  pageObjects.LandingPage - Loan Interest setting done
+20:06:29.606 [main] INFO  pageObjects.LandingPage - Loan Tenure setting done
+20:06:32.728 [main] INFO  pageObjects.LandingPage - Emi Ammount got successfully 
+20:06:32.730 [main] INFO  pageObjects.BasePage - validation Checking Failed
+20:06:32.946 [main] INFO  pageObjects.BasePage - *** Starting TC_006_LoanCalculatorYearMonthTentureValidationTest :isNavigatedToLoanCalculator ***
+20:06:33.068 [main] INFO  pageObjects.LandingPage - MenuItem Calculator clicked
+20:06:34.911 [main] INFO  pageObjects.LandingPage - Loan Calculator clicked
+20:06:39.946 [main] INFO  pageObjects.BasePage - Page title matched
+20:06:40.579 [main] INFO  pageObjects.BasePage - *** Starting TC_006_LoanCalculatorYearMonthTentureValidationTest :yearMonthBtnTesting ***
+20:06:42.917 [main] INFO  pageObjects.LoanCalculatorPage - Loan Tenure Input setted successfully
+20:06:45.004 [main] INFO  pageObjects.BasePage - Month to Year Value Changing is correct
+20:06:45.191 [main] INFO  pageObjects.BasePage - *** Starting TC_006_LoanCalculatorYearMonthTentureValidationTest :yearMonthBtnTesting ***
+20:06:47.645 [main] INFO  pageObjects.LoanCalculatorPage - Loan Tenure Input setted successfully
+20:06:49.732 [main] INFO  pageObjects.BasePage - Month to Year Value Changing is not correct
+20:06:50.270 [main] INFO  pageObjects.BasePage - *** Starting TC_003_LoanCalculatorDDT :LoanCalculatorTest ***
+20:06:50.407 [main] INFO  pageObjects.LandingPage - MenuItem Calculator clicked
+20:06:52.845 [main] INFO  pageObjects.LandingPage - Loan Calculator clicked
+20:06:58.175 [main] INFO  pageObjects.LoanCalculatorPage - Loan Ammount Input setted successfully
+20:06:59.603 [main] INFO  pageObjects.LoanCalculatorPage - Loan Interest Input setted successfully
+20:07:01.137 [main] INFO  pageObjects.LoanCalculatorPage - Loan Tenure Input setted successfully
+20:07:02.626 [main] INFO  pageObjects.LoanCalculatorPage - Fees Input setted successfully
+20:07:08.190 [main] INFO  pageObjects.BasePage - validation Checked Successfully
+20:07:12.778 [main] INFO  pageObjects.LoanCalculatorPage - Year table expand
+20:07:12.783 [main] INFO  pageObjects.LoanCalculatorPage - Monthly Data extraction From Table failed due to java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetIndex(String)" because "this.workbook" is null
+20:07:12.784 [main] INFO  pageObjects.BasePage - *** Finishing TC_003_LoanCalculatorDDT :LoanCalculatorTest ***
+20:07:13.271 [main] INFO  pageObjects.BasePage - *** Starting TC_003_LoanCalculatorDDT : LoanAmountCalculatorTest ***
+20:07:14.851 [main] INFO  pageObjects.LoanCalculatorPage - Loan EMI Input setted successfully
+20:07:16.340 [main] INFO  pageObjects.LoanCalculatorPage - Loan Interest Input setted successfully
+20:07:17.585 [main] INFO  pageObjects.LoanCalculatorPage - Loan Tenure Input setted successfully
+20:07:19.056 [main] INFO  pageObjects.LoanCalculatorPage - Fees Input setted successfully
+20:07:24.493 [main] INFO  pageObjects.BasePage - validation Checked Successfully
+20:07:27.840 [main] INFO  pageObjects.LoanCalculatorPage - Year table expand
+20:07:27.844 [main] INFO  pageObjects.LoanCalculatorPage - Monthly Data extraction From Table failed due to java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetIndex(String)" because "this.workbook" is null
+20:07:27.844 [main] INFO  pageObjects.BasePage - *** Finishing TC_003_LoanCalculatorDDT :LoanAmountCalculatorTest ***
+20:07:28.231 [main] INFO  pageObjects.BasePage - *** Starting TC_003_LoanCalculatorDDT : LoanTentureCalculatorTest ***
+20:07:29.621 [main] INFO  pageObjects.LoanCalculatorPage - Loan Ammount Input setted successfully
+20:07:31.051 [main] INFO  pageObjects.LoanCalculatorPage - Loan EMI Input setted successfully
+20:07:32.473 [main] INFO  pageObjects.LoanCalculatorPage - Loan Interest Input setted successfully
+20:07:33.834 [main] INFO  pageObjects.LoanCalculatorPage - Fees Input setted successfully
+20:07:39.129 [main] INFO  pageObjects.BasePage - validation Checked Successfully
+20:07:41.363 [main] INFO  pageObjects.LoanCalculatorPage - Year table expand
+20:07:41.369 [main] INFO  pageObjects.LoanCalculatorPage - Monthly Data extraction From Table failed due to java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetIndex(String)" because "this.workbook" is null
+20:07:41.369 [main] INFO  pageObjects.BasePage - *** Finishing TC_003_LoanCalculatorDDT :LoanTentureCalculatorTest ***
