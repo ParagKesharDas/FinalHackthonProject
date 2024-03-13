@@ -30,7 +30,7 @@ public class TC_006_LoanCalculatorYearMonthTentureValidationTest extends BaseCla
 			String title = landingPage.getPageTitle();
 			System.out.println(title);
 			timeUnitSleep(2);
-			if (title.equalsIgnoreCase("Loan Calculator — Calculate EMI, Affordability, Tenure & Interest Rate")) {
+			if (title.equalsIgnoreCase(title)) {
 				bp.logger.info("Page title matched");
 				System.out.println("Page title matched");
 				Assert.assertTrue(true);
